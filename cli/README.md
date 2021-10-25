@@ -23,7 +23,7 @@ Export blocks, actions and logs ([Schema](../docs/schema.md), [Reference](../doc
 Stream blocks, actions and logs to console ([Reference](../docs/commands.md#stream)):
 
 ```bash
-> pip3 install celo-etl[streaming]
+> pip3 install nansen-celo-etl[streaming]
 > celoetl stream --start-block 500000 -e block,action,log --log-file log.txt \
 --provider-uri grpcs://api.mainnet.celo.one:443
 ```
