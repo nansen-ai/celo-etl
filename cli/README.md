@@ -8,7 +8,7 @@ Celo ETL lets you convert blockchain data into convenient formats like CSVs and 
 Install Celo ETL CLI:
 
 ```bash
-pip3 install celo-etl
+pip3 install nansen-celo-etl
 ```
 
 Export blocks, actions and logs ([Schema](../docs/schema.md), [Reference](../docs/commands.md)):

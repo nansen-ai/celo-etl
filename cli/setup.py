@@ -10,14 +10,14 @@ def read(fname):
 long_description = read('README.md') if os.path.isfile("README.md") else ""
 
 setup(
-    name='celo-etl',
+    name='nansen-celo-etl',
     version='0.0.1',
     author='Evgeny Medvedev',
     author_email='evge.medvedev@gmail.com',
     description='Tools for exporting Celo blockchain data to CSV or JSON',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/nansen-ai/nansen-celo-etl',
+    url='https://github.com/nansen-ai/celo-etl',
     packages=find_packages(exclude=['schemas', 'tests']),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
