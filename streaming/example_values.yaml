@@ -1,0 +1,10 @@
+stream:
+  image:
+    repository: blockchainetl/celo-etl
+    tag: 1.0.0
+config:
+  PROVIDER_URI: "https://<node_uri>"
+  STREAM_OUTPUT: "projects/<your_project>/topics/celo"
+  GCS_PREFIX: "gs://<your_bucket>/celo-etl/streaming"
+  LAG_BLOCKS: "10"
+  ENTITY_TYPES: "block,transaction,log,token_transfer"
