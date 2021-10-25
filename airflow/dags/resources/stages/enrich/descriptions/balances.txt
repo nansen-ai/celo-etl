@@ -1,0 +1,2 @@
+This table contains Celo balances of all addresses, updated daily.
+Data is exported using https://github.com/nansen-ai/celo-etl

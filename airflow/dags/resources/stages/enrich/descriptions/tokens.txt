@@ -1,0 +1,2 @@
+Token data.
+Data is exported using https://github.com/nansen-ai/celo-etl
